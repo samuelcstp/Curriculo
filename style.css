@@ -150,6 +150,10 @@ main {
   border-radius: 8px;
 }
 
+.project .muted {
+  margin-bottom: 0.5rem;
+}
+
 footer {
   font-size: 0.85rem;
   color: var(--muted);
