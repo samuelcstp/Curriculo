@@ -2,8 +2,8 @@
   --bg: #f6f8fb;
   --card: #ffffff;
   --muted: #6b7280;
-  --accent: #0ea5a4;
-  --accent-2: #0b7285;
+  --accent: #84a50e;
+  --accent-2: #186396;
   --text: #0f172a;
   --gap: 1rem;
 }
@@ -24,7 +24,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 70vw;
   background: var(--card);
   border-radius: 12px;
   box-shadow: 0 8px 30px rgba(15, 23, 42, 0.08);
@@ -192,4 +192,38 @@ footer {
   .skill {
     flex: 1 1 auto;
   }
+}
+
+.hobbies ul {
+  list-style-type: none;
+  display: flex;
+  margin-top: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.hobbies ul li {
+  background: #e6eef0;
+  color: var(--text);
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.hobbies h2 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+  font-size: 1.05rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.fab:hover {
+  color: #e6e3e3;
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
 }
